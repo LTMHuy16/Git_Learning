@@ -20,4 +20,8 @@
 
   # git log
 
-    => Xem thông tin các lần commit
+    => Xem thông tin các lần commit, để thoát khoải chế độ git log thì bấm Q
+
+  # git branch
+
+    => Tạo ra các nhánh, khi làm việc nhóm mỗi người có thể thực hiện một chức năng thì cần thì cần phải tạo ra một branch để thực thực hiện chức năng của mình mà không ảnh hưởng tới người khác, khi xong thì ta mới gộp các thay đổi này lên branch chính
