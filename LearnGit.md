@@ -33,3 +33,7 @@
   # git checkout branch-name
 
     => Chuyển về một branch đã có
+
+  # git merge branch-name
+
+    => merge branch đang đứng với branch-name
