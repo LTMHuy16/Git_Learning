@@ -39,3 +39,5 @@
   # git merge branch-name
 
     => merge branch đang đứng với branch-name
+
+  # 
