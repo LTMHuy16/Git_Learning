@@ -82,4 +82,4 @@
 
     => merge branch đang đứng với branch-name
 
-  # 
+  # This is a caption before revert
