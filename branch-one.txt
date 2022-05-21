@@ -1,7 +1,6 @@
 This is a branch-one
 
 
-Second commit in branch-one
-
+Something that is not the same as branch-one
 
 This is the end of branch-one
