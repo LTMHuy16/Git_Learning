@@ -1,7 +1,7 @@
 This is a branch-one
 
 
-Second commit in branch-one
+I am creating a merge conflict from the branch-one
 
 
 This is the end of branch-one
