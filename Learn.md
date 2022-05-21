@@ -82,4 +82,14 @@
 
     => merge branch đang đứng với branch-name
 
+<<<<<<< HEAD
   # This is a caption before revert
+=======
+    => Ở phần non-fast-forward
+
+    A ==== B ==== C  ==== D  ==== M  ===== Change
+           || ==== C` ==== D` ====|| ===== Change -> conflict  
+            // new-branch
+
+    => Phần trên sẽ gây ra conflict, để giải quyết ta cần chọn giữa 2 phần Current changes vs Incoming change -> sau đó ta thực hiện add/ commit lại để resolve
+>>>>>>> parent of 098e498 (commit after revert)
