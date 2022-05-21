@@ -35,6 +35,11 @@
   # git checkout branch-name
 
     => Chuyển về một branch đã có
+  
+  # git revert
+
+    => Chuyển về một commit được chọn
+    ==> ví dụ có 6 commit và bạn đang ở commit thứ 6 => sau khi revert về 4 chẳng hạn => thì git sẽ coppy phiên bản đó cho hiện tại => không ảnh hưởng gì đến các commit (các commit từ 1 đến 6 vẫn tồn tại)
 
   # khái niệm stash
 
@@ -72,12 +77,6 @@
     Khi thực hiện rebase thì lịch sử new-branch sẽ được đính kèm vào branch master
 
       A ==== B ==== C  ==== D ==== C` ==== D`// master == new-branch
-
-
-  # git revert
-
-    => Chuyển về một commit được chọn
-    ==> ví dụ có 6 commit và bạn đang ở commit thứ 6 => sau khi revert về 4 chẳng hạn => thì git sẽ coppy phiên bản đó cho hiện tại => không ảnh hưởng gì đến các commit (các commit từ 1 đến 6 vẫn tồn tại)
 
   # git merge branch-name
 
