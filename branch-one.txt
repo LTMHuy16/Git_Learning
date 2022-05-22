@@ -11,3 +11,7 @@ This was added from Github
 This was added from Feature-A
 
 This was added from Github in 22/05
+
+
+=====================
+Chuẩn bị reset bằng câu lệnh command

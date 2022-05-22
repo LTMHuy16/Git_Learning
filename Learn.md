@@ -35,11 +35,6 @@
   # git checkout branch-name
 
     => Chuyển về một branch đã có
-  
-  # git revert
-
-    => Chuyển về một commit được chọn
-    ==> ví dụ có 6 commit và bạn đang ở commit thứ 6 => sau khi revert về 4 chẳng hạn => thì git sẽ coppy phiên bản đó cho hiện tại => không ảnh hưởng gì đến các commit (các commit từ 1 đến 6 vẫn tồn tại)
 
   # khái niệm stash
 
@@ -89,3 +84,15 @@
             // new-branch
 
     => Phần trên sẽ gây ra conflict, để giải quyết ta cần chọn giữa 2 phần Current changes vs Incoming change -> sau đó ta thực hiện add/ commit lại để resolve
+
+  # git reset
+
+    => --soft [mã commit]: chuyển về commit đã được chọn, mọi thay đổi từ điểm gốc đến điểm commit quay lại (hình dưới) sẽ được đưa vào staging area, khi git log ra thì sẽ mất các commit1, HEAD
+
+    HEAD ---- commit 1 ---- commit2
+      |-------------------------|
+
+  # git revert
+
+    => Chuyển về một commit được chọn
+    ==> ví dụ có 6 commit và bạn đang ở commit thứ 6 => sau khi revert về 4 chẳng hạn => thì git sẽ coppy phiên bản đó cho hiện tại => không ảnh hưởng gì đến các commit (các commit từ 1 đến 6 vẫn tồn tại)
