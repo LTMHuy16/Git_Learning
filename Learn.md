@@ -92,7 +92,7 @@
     HEAD ---- commit 1 ---- commit2
       |-------------------------|
 
-    ==> git reset khá ok khi làm việc tại local, tuy nhiên cần cân nhắc khi làm việc remote với nhiều thành viên sử dụng
+    ==> git reset khá ok khi làm việc tại local, tuy nhiên cần cân nhắc khi làm việc remote với nhiều thành viên sử dụng, để làm share cho remote repos thì cần phải thực hiện git push -f, nó sẽ hủy tất cả các history trên branch thực hiện sau điểm push
 
   # git revert
 
