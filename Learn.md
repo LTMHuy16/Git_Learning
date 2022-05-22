@@ -87,10 +87,12 @@
 
   # git reset
 
-    => --soft [mã commit]: chuyển về commit đã được chọn, mọi thay đổi từ điểm gốc đến điểm commit quay lại (hình dưới) sẽ được đưa vào staging area, khi git log ra thì sẽ mất các commit1, HEAD
+    => --soft [mã commit]: chuyển về commit đã được chọn, mọi thay đổi từ điểm gốc đến điểm commit (hình dưới) sẽ được đưa vào staging area, khi git log ra thì sẽ mất các commit1, HEAD
 
     HEAD ---- commit 1 ---- commit2
       |-------------------------|
+
+    ==> git reset khá ok khi làm việc tại local, tuy nhiên cần cân nhắc khi làm việc remote với nhiều thành viên sử dụng
 
   # git revert
 
